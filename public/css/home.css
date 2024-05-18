@@ -1,0 +1,723 @@
+.homepage-robotiik {
+    display: flex;
+    width: 100%;
+    padding-top: 35px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(HomepageRobotiik.svg);
+    background-size: cover;
+}
+
+.homepage-robotiik .homepage-res {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 49px;
+}
+
+.homepage-res .navbar {
+    display: flex;
+    padding: 0px 154px;
+    align-items: center;
+    gap: 381px;
+    align-self: stretch;
+}
+
+.homepage-res .logo {
+    width: 238px;
+    height: 83px;
+}
+
+.homepage-res .div-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+
+.homepage-res .menu {
+    color: #fff;
+    font-family: Oxanium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage-res .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 45px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.homepage-res .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.homepage-res .imgrobot {
+    width: 629px;
+    height: 508px;
+    mix-blend-mode: luminosity;
+}
+
+.homepage-res .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+
+.homepage-res .header-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.homepage-res .text {
+    width: 556px;
+}
+
+.homepage-res .span {
+    font-family: Oxanium;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 97.75%; /* 87.975px */
+    background: linear-gradient(
+        105deg,
+        #fff 1.47%,
+        rgba(255, 255, 255, 0.6) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.homepage-res .p {
+    font-family: Oxanium;
+    width: 556px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.75%; /* 29.325px */
+    background: linear-gradient(
+        105deg,
+        #fff 1.47%,
+        rgba(255, 255, 255, 0.6) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.homepage-res .butt {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: linear-gradient(95deg, #3bdcf6 0%, #070247 100%);
+    box-shadow: 20px 15px 25px 0px #156c78;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.butt:hover {
+    scale: 1.2;
+}
+
+.homepage-res .text-wrapper-2 {
+    color: #fff;
+    font-family: Oxanium;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    align-self: stretch;
+}
+
+.homepage-res .headline-2 {
+    display: flex;
+    padding: 11px 37px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 11px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.35) 0%,
+        rgba(102, 102, 102, 0.7) 100%
+    );
+}
+
+.homepage-res .icon {
+    width: 54px;
+    height: 54px;
+    fill: #fff;
+}
+
+.homepage-res .text-2 {
+    color: #fff;
+    font-family: Oxanium;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage-res .headline-b {
+    display: flex;
+    padding: 40px 70px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 19px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.35) 0%,
+        rgba(102, 102, 102, 0.7) 100%
+    );
+}
+
+.homepage-res .img {
+    width: 86px;
+    height: 86px;
+    fill: #fff;
+}
+
+.homepage-res .text-3 {
+    color: #fff;
+    font-family: Oxanium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage-res .tagline {
+    display: flex;
+    padding: 0px 178px;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    align-self: stretch;
+}
+
+.homepage-res .isi {
+    display: flex;
+    min-width: 716px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.75) 0%,
+        rgba(0, 0, 0, 0.45) 100%
+    );
+}
+
+.homepage-res .robotiikwhite {
+    width: 283px;
+    height: 242px;
+}
+
+.homepage-res .div-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.homepage-res .text-4 {
+    flex: 1 0 0;
+    color: #fff;
+    font-family: Oxanium;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage-res .division {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    align-self: stretch;
+}
+
+.homepage-res .technical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+    align-self: stretch;
+}
+
+.homepage-res .text-5 {
+    color: #fff;
+    font-family: Oxanium;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .anggota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 56px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.homepage-res .frame-2 {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 40px;
+    background: linear-gradient(
+        151deg,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(153, 153, 153, 0.03) 96.69%
+    );
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.frame-2:hover {
+    box-shadow: 10px 15px 20px 0px #0275bf;
+    scale: 1.2;
+}
+
+.homepage-res .icon-2 {
+    width: 180px;
+    height: 180px;
+    fill: #fff;
+}
+
+.homepage-res .frame-3 {
+    display: flex;
+    width: 280px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: linear-gradient(
+        90deg,
+        #0275bf 0%,
+        rgba(100, 204, 214, 0.9) 100%
+    );
+    box-shadow: 10px 15px 20px 0px #0275bf;
+}
+
+.homepage-res .text-6 {
+    color: #fff;
+    font-family: Oxanium;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage-res .nontechnical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    align-self: stretch;
+}
+
+.homepage-res .frame-4 {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.homepage-res .frame-5 {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 40px;
+    background: linear-gradient(
+        151deg,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(153, 153, 153, 0.03) 96.69%
+    );
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.homepage-res .icon-3 {
+    width: 126.78px;
+    height: 126.78px;
+    flex-shrink: 0;
+    fill: #fff;
+}
+
+.homepage-res .frame-6 {
+    display: flex;
+    width: 200px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: linear-gradient(
+        180deg,
+        #eebe76 0.1%,
+        rgba(255, 164, 92, 0.4) 100.1%
+    );
+    box-shadow: 15px 15px 20px 0px rgba(204, 106, 28, 0.5);
+}
+
+.frame-5:hover {
+    box-shadow: 15px 15px 20px 0px rgba(255, 251, 0, 0.5);
+    scale: 1.2;
+}
+
+.homepage-res .text-7 {
+    color: #fff;
+    text-align: center;
+    font-family: Oxanium;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage-res .achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    align-self: stretch;
+}
+
+.homepage-res .text-wrapper-3 {
+    color: #fff;
+    text-align: center;
+    font-family: Oxanium;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .achievement-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 57px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.homepage-res .frame-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.homepage-res .frame-wrapper {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.homepage-res .frame-8 {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.homepage-res .frame-9 {
+    display: flex;
+    padding: 50px 45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    border-radius: 20px;
+    background: linear-gradient(
+        158deg,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.35) 97.02%
+    );
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.homepage-res .text-wrapper-4 {
+    width: 94.812px;
+    height: 19.266px;
+    color: #fff;
+    font-family: Oxanium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .icon-trophy {
+    width: 73.599px;
+    height: 74.45px;
+}
+
+.homepage-res .COMPETITION {
+    width: 94.812px;
+    height: 19.266px;
+    color: #fff;
+    text-align: center;
+    font-family: Oxanium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .frame-10 {
+    display: flex;
+    padding: 102px 119px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.35) 100%
+    );
+    backdrop-filter: blur(2px);
+}
+
+.homepage-res .COMPETITION-wrapper {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.homepage-res .COMPETITION-2 {
+    color: #fff;
+    font-family: Oxanium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .butt-2 {
+    display: flex;
+    padding: 10px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: linear-gradient(95deg, #3bdcf6 0%, #070247 100%);
+    box-shadow: 20px 15px 25px 0px #156c78;
+    transition: 0.4s;
+}
+
+.butt-2:hover {
+    scale: 1.2;
+}
+
+.homepage-res .relation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.homepage-res .text-wrapper11 {
+    color: #fff;
+    text-align: center;
+    font-family: Oxanium;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .frame11,
+.homepage-res .frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.homepage-res .div11 {
+    color: #fff;
+    text-align: center;
+    font-family: Oxanium;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .sponsor-scroll-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.homepage-res .sponsor-atas {
+    display: flex;
+    gap: 40px;
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.homepage-res .sponsorship .sponsor-atas {
+    animation: scroll-right 30s linear infinite;
+}
+
+.homepage-res .partnership .sponsor-atas {
+    animation: scroll-left 30s linear infinite;
+}
+
+.homepage-res .sponsor {
+    display: flex;
+    width: 287px;
+    height: 247px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 44px;
+    background: linear-gradient(
+        127deg,
+        rgba(0, 0, 0, 0.56) 5.77%,
+        rgba(0, 0, 0, 0.16) 96.19%
+    );
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(40px);
+}
+
+.homepage-res .robotikk-4 {
+    width: 147px;
+    height: 173px;
+    flex-shrink: 0;
+    backdrop-filter: blur(2px);
+}
+
+.homepage-res .text-wrapper-22 {
+    color: #fff;
+    font-family: Oxanium;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .footer {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 702px;
+    align-self: stretch;
+    background: linear-gradient(
+        90deg,
+        rgba(3, 0, 45, 0.7) 0%,
+        rgba(3, 0, 45, 0.7) 100%
+    );
+}
+
+.homepage-res .f-kanan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.homepage-res .frame33 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.homepage-res .text33 {
+    height: 35px;
+    align-self: stretch;
+    color: #fff;
+    font-family: Oxanium;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .text-wrapper33 {
+    height: 72px;
+    align-self: stretch;
+    color: #fffafa;
+    font-family: Oxanium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
