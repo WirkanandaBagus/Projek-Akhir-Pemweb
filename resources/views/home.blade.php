@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ URL::asset('css/home.css') }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet" />
   </head>
   <body>
@@ -16,14 +17,14 @@
         <div class="navbar">
           <img class="logo" src="{{URL::to('img/logo.png')}}" />
           <div class="div-nav">
-            <div class="menu">Home</div>
+            <div class="menus">Home</div>
             <div class="menu">Division</div>
             <div class="menu">Relation</div>
             <div class="menu">Publication</div>
             <div class="menu">Service</div>
           </div>
         </div>
-        <div class="header">
+        <div class="header" data-aos="fade-up">
           <div class="left">
             <div class="header-2">
               <p class="text">
@@ -39,21 +40,21 @@
             <img class="imgrobot" src="{{URL::to('img/robolumo.svg')}}" />
           </div>
         </div>
-        <div class="headline">
-          <div class="headline-2">
-            <img class="icon" src="{{URL::to('img/iconRob.svg')}}" />
-            <div class="text-2">RELATION</div>
+        <div class="headline" data-aos="fade-up">
+            <div class="headline-2">
+              <img class="icon" src="{{URL::to('img/iconRob.svg')}}" />
+              <div class="text-2">RELATION</div>
+            </div>
+            <div class="headline-2">
+              <img class="icon" src="{{URL::to('img/iconPiala.svg')}}" />
+              <div class="text-2">COMPETITION</div>
+            </div>
+            <div class="headline-2">
+              <img class="icon" src="{{URL::to('img/iconPerson.svg')}}" />
+              <div class="text-2">DIVISION</div>
+            </div>
           </div>
-          <div class="headline-b">
-            <img class="img" src="{{URL::to('img/iconPiala.svg')}}" />
-            <div class="text-3">COMPETITION</div>
-          </div>
-          <div class="headline-2">
-            <img class="icon" src="{{URL::to('img/iconPerson.svg')}}" />
-            <div class="text-2">DIVISION</div>
-          </div>
-        </div>
-        <div class="tagline">
+        <div class="tagline" data-aos="fade-up">
           <div class="text-wrapper-2">TAGLINE</div>
           <div class="isi">
             <img class="robotiikwhite" src="{{URL::to('img/robotiikwhite.svg')}}" />
@@ -64,31 +65,31 @@
             </div>
           </div>
         </div>
-        <div class="division">
+        <div class="division" data-aos="fade-up">
           <div class="technical">
             <div class="text-5">Technical Division</div>
             <div class="anggota">
               <div class="frame-2">
-                <img class="icon-2" src="{{URL::to('img/Amarine.png')}}" />
+                <img class="icon-3" src="{{URL::to('img/Amarine.png')}}" />
                 <div class="frame-3">
-                  <div class="text-6">AMARINE</div>
+                  <div class="text-7">AMARINE</div>
                 </div>
               </div>
               <div class="frame-2">
-                <img class="icon-2" src="{{URL::to('img/Humanoid.png')}}" />
+                <img class="icon-3" src="{{URL::to('img/Humanoid.png')}}" />
                 <div class="frame-3">
-                  <div class="text-6">HUMANOID</div>
+                  <div class="text-7">HUMANOID</div>
                 </div>
               </div>
               <div class="frame-2">
-                <img class="icon-2" src="{{URL::to('img/Quadcopter.png')}}" />
+                <img class="icon-3" src="{{URL::to('img/Quadcopter.png')}}" />
                 <div class="frame-3">
-                  <div class="text-6">QUADCOPTER</div>
+                  <div class="text-7">QUADCOPTER</div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="nontechnical">
+          <div class="nontechnical" data-aos="fade-up">
             <div class="text-5">Non Technical Division</div>
             <div class="frame-4">
               <div class="frame-5">
@@ -118,7 +119,7 @@
             </div>
           </div>
         </div>
-        <div class="achievement">
+        <div class="achievement" data-aos="fade-up">
           <div class="text-wrapper-3">Achievement</div>
           <div class="achievement-2">
             <div class="frame-7">
@@ -257,5 +258,19 @@
         </footer>
       </div>
     </div>
+    <script>
+      document.addEventListener("scroll", () => {
+        const header = document.querySelector(".navbar");
+        if (window.scrollY > 0) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
