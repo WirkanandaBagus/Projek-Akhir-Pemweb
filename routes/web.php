@@ -6,8 +6,8 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/division', function () {
-    return view('division');
+Route::get('/public_relation', function () {
+    return view('public_relation');
 });
 
 Route::get('/relation', function () {

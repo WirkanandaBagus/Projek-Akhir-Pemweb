@@ -30,7 +30,7 @@
                 <div class="navbar">
                     <img class="logo" src="{{URL::to('img/logo.png')}}" />
                     <div class="div-nav">
-                        <div class="menu">
+                        <div class="menus">
                             <a href="/">Home</a>
                         </div>
                         <div class="menu division-menu">
@@ -62,11 +62,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="menu">Relation</div>
+                        <div class="menus">Relation</div>
                         <div class="menus">
                             <a href="publication">Publication</a>
                         </div>
-                        <div class="menu">Service</div>
+                        <div class="menus">Service</div>
                     </div>
                 </div>
                 <div class="PUBLIC-RELATION">PUBLIC<br />RELATION</div>
@@ -149,7 +149,6 @@
                         </div>
                     </div>
                 </div>
-</div>
                 <div class="atas-footer">
                     <div class="penjelasan">
                         <div class="tupoksi">
@@ -197,20 +196,20 @@
                     </div>
                 </div>
                 <footer class="footer">
-                    <img class="robotikk" src="img/robotikk6-2.png" />
+                    <img class="robotikk-4" src="img/logowarna.svg" />
                     <div class="f-kanan">
-                        <div class="frame">
-                            <div class="text-5">Sekretariat</div>
-                            <p class="text-6">
+                        <div class="frame33">
+                            <div class="text33">Sekretariat</div>
+                            <p class="text-wrapper33">
                                 Gedung Kreativitas Mahasiswa FILKOM lt.2<br />Fakultas
                                 Ilmu Komputer Universitas Brawijaya<br />Jl.
                                 Veteran No. 8, Malang, 65145, Indonesia<br />Email:
                                 ROBOTIIK.filkom@gmail.com
                             </p>
                         </div>
-                        <div class="frame">
-                            <div class="text-5">Contact</div>
-                            <div class="text-7">
+                        <div class="frame33">
+                            <div class="text33">Contact</div>
+                            <div class="text-wrapper33">
                                 Email : robotiik.filkom@gmail.com
                             </div>
                         </div>
