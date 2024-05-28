@@ -16,12 +16,17 @@ class User extends Authenticatable
      *
      * @var array<int, string>
      */
-    protected $fillable = [
-        'name',
-        'email',
-        'password',
+    // protected $fillable = [
+    //     'name',
+    //     'username',
+    //     'email',
+    //     'password',
+    // ];
+    
+    protected $guarded = ['id'];
+    protected $attributes = [
+        'is_admin' => false, // Optional: This ensures the default value at the model level
     ];
-
     /**
      * The attributes that should be hidden for serialization.
      *
