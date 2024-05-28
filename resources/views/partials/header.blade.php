@@ -8,7 +8,7 @@
             <a class="{{$title === 'Home' ? 'menus' : 'menu'}}" href="/">Home</a>
         </li>
         <li class="menu {{$title === 'Division' ? 'menus' : 'menu'}}">
-            Division <i class="bi bi-caret-right"></i>
+            Division<i class="bi bi-caret-right"></i>
             <div class="dropdown-content">
                 <div class="dropdown-item">
                     <a href="/bpi">BPI</a>
@@ -17,7 +17,7 @@
                     <a href="/humanoid">Humanoid</a>
                 </div>
                 <div class="dropdown-item">
-                    <a href="/quadcopter">Quadcopter</a>
+                    <a href="/quadqopter">Quadcopter</a>
                 </div>
                 <div class="dropdown-item">
                     <a href="/amarine">Amarine</a>
