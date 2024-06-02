@@ -16,6 +16,7 @@ Route::view('/division', 'division', ["title" => "Division"]);
 Route::view('/relation', 'relation', ["title" => "Relation"]);
 Route::view('/publication', 'publication', ["title" => "Publication"]);
 Route::view('/service', 'service', ["title" => "Service"]);
+Route::view('/public_relation', 'public_relation', ["title" => "Public Relation"]);
 
 // Authentication routes
 Route::middleware('guest')->group(function () {
