@@ -1,6 +1,6 @@
 @extends('layouts.templateFooterHeader')
 @section('headTambahan')
-<link rel="stylesheet" href="css/service.css" />
+<link rel="stylesheet" href="css/home.css" />
 @endsection
 
 @section('isiInformasi')
