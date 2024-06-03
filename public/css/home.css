@@ -1,12 +1,12 @@
 .homepage-robotiik {
     display: flex;
     width: 100%;
-    padding-top: 35px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     background-image: url(HomepageRobotiik.svg);
     background-size: cover;list-style-type: none;
+
 }
 .defaultpage-robotiik{
     display: flex;

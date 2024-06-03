@@ -12,10 +12,12 @@
                 </li>
             @else
                 <li>
-                    <form action="/{{ $title === 'Order' || $title === "Print Orders" || $title === "Design Orders"? 'dashboard' : 'order' }}" method="get">
-                        <button type="submit"
-                            class="{{$title === 'Register' ? 'menus' : 'menu'}}">{{ $title === 'Order' || $title === "Print Orders" || $title === "Design Orders"? 'Dashboard' : 'Order' }}</button>
+                    <form action="/{{ $title === 'Order' || $title === 'Print Orders' || $title === 'Design Orders' ? 'dashboard' : 'order' }}" method="get" style="background-color: blue; padding: 10px; border-radius: 5px;">
+                        <button type="submit" class="{{$title === 'Register' ? 'menus' : 'menu'}}" style="background-color: blue;">
+                            {{ $title === 'Order' || $title === "Print Orders" || $title === "Design Orders"? 'Dashboard' : 'Order' }}
+                        </button>
                     </form>
+                    
                 </li>
 
                 <li>
