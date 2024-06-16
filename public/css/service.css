@@ -1,15 +1,14 @@
-.homepage-robotiik {
+.homepage-homeInfusion {
     display: flex;
     width: 100%;
     padding-top: 35px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url(HomepageRobotiik.svg);
     background-size: cover;
 }
 
-.homepage-robotiik .homepage-res {
+.homepage-homeInfusion .homepage-res {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -46,7 +45,7 @@
 }
 
 .paragrafService {
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
     line-height: 25px;

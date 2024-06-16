@@ -16,13 +16,12 @@ return new class extends Migration
             $table->foreignId('id_user')->constrained('users')->onDelete('cascade');
             $table->string('nama');
             $table->string('kontak');
-            $table->string('file_name');
-            $table->string('material');
+            $table->string('alamat');
             $table->string('status')->default('waiting');
             $table->date('tanggal_pesan');
             $table->time('jam_pesan');
             $table->string('file_resi')->nullable(); // Hapus klausa after
-            $table->string('harga')->default('0');
+            $table->text('keluhan');
             $table->timestamps();
         });
     }

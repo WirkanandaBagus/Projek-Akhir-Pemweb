@@ -13,25 +13,22 @@ class OrderPrintController extends Controller
         $validatedData = $request->validate([
             'kontak' => 'required|string',
             'nama' => 'required|string',
-            'material' => 'required|string',
-            'file_name' => 'required|file',
+            'alamat' => 'required|string',
+            'keluhan' => 'required|string',
         ]);
        
-        $fileName = $request->file('file_name')->getClientOriginalName();
-        $file = $request->file('file_name')->storeAs('public/fileformat3dprinting', $fileName);
+
 
         $userId = Auth::id();
         $statusDefault = "waiting";
-        $hargaDefault = "0";
 
         TableOrderPrint::create([
             'id_user' => $userId,
             'kontak' => $validatedData['kontak'],
             'nama' => $validatedData['nama'],
-            'material' => $validatedData['material'],
-            'file_name' => $file,
+            'alamat' => $validatedData['alamat'],
+            'keluhan' => $validatedData['keluhan'],
             'status' => $statusDefault,
-            'harga' => $hargaDefault,
         ]);
 
         return redirect()->route('dashboard');

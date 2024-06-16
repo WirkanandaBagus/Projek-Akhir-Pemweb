@@ -28,10 +28,7 @@ class AdminPostController extends Controller
         if ($statusOrder) {
             $customOrder = [
                 'waiting',
-                'payment',
                 'checking',
-                'processing',
-                'ready to take',
                 'done'
             ];
 
@@ -61,7 +58,8 @@ class AdminPostController extends Controller
         // Menambahkan filter pencarian jika ada
         if ($search) {
             $tableorderprintQuery->where('nama', 'like', "%{$search}%")
-                ->orWhere('kontak', 'like', "%{$search}%");
+                ->orWhere('kontak', 'like', "%{$search}%")
+                ->orWhere('status', 'like', "%{$search}%");
         }
 
         // Menambahkan pengurutan berdasarkan tanggal jika diinginkan
@@ -73,10 +71,7 @@ class AdminPostController extends Controller
         if ($statusOrder) {
             $customOrder = [
                 'waiting',
-                'payment',
                 'checking',
-                'processing',
-                'ready to take',
                 'done'
             ];
 
@@ -120,41 +115,14 @@ class AdminPostController extends Controller
     }
     public function acceptPrintAdmin(Request $request, $id)
     {
-        $request->validate([
-            'harga' => 'required|integer',
-        ]);
 
-        $harga = $request->input('harga');
 
         $order = TableOrderPrint::find($id);
-        $order->harga = $harga;
-        $order->status = 'payment';
+        $order->status = 'checking';
         $order->save();
 
         return redirect()->back()->with('success', 'Order confirmed successfully.');
     }
-    public function acceptPaymentAdmin(Request $request, $id)
-    {
-
-        $order = TableOrderPrint::find($id);
-        if ($order) {
-            $order->status = 'processing';
-            $order->save();
-        }
-
-        return redirect()->back()->with('success', 'Status updated to ready to take.');
-    }
-    public function doneprinting(Request $request, $id)
-    {
-        $order = TableOrderPrint::find($id);
-        if ($order) {
-            $order->status = 'ready to take';
-            $order->save();
-        }
-
-        return redirect()->back()->with('success', 'Status updated to ready to take.');
-    }
-
     public function finishorder(Request $request, $id)
     {
         $order = TableOrderPrint::find($id);

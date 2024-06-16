@@ -18,7 +18,7 @@
     @yield('headTambahan')
 </head>
 
-<body class="{{$title === 'Home' ? 'homepage-robotiik' : 'defaultpage-robotiik'}}">
+<body class="{{$title === 'Home' ? 'homepage-homeInfusion' : 'defaultpage-homeInfusion'}}">
     <div class="homepage-res">
         @include('partials.header')
             @yield('isiInformasi')

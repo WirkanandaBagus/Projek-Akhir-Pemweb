@@ -1,0 +1,573 @@
+
+/* Container Styling */
+.Table {
+    min-width: 800px;
+    min-height: 600px;
+    overflow: auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Table Styling */
+.Table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #070247;
+    color: white;
+}
+
+.Table th, .Table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.Table th {
+    background-color: #1CB6B6;
+    font-weight: 700; /* Bold */
+}
+
+.Table td {
+    font-weight: 400; /* Normal */
+}
+
+.Table tr:nth-child(even) {
+    background-color: #2a2a72;
+}
+
+.Table a {
+    color: white;
+    text-decoration: none;
+}
+
+.Table a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styling */
+.pay-now-btn {
+    background-color: #1CB6B6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.pay-now-btn:hover {
+    background-color: #17a2a2;
+}
+
+
+/* Popup Styling */
+.popupprint {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none;
+}
+
+.popupprint h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.popupprint h4 {
+    font-weight: 400;
+}
+
+.popupprint .logo {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.popupprint button {
+    background-color: #1CB6B6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.popupprint button:hover {
+    background-color: #17a2a2;
+}
+
+.popupprint form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popupprint input[type="file"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.popupprint .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Overlay Styling */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 500;
+    display: none;
+}
+
+
+/* Form */
+.submit-button {
+    background-color: #3BDCF6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #1E90FF; /* Change color on hover */
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    display: flex; /* Set as a flex container */
+}
+.wide-input {
+    width: 200px; /* or any width you prefer */
+}
+
+.senddesign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; /* Menjadikan teks putih */
+}
+
+
+
+.modal-content {
+    background-color:rgba(0, 0, 0, 0.7); /* Black with 50% opacity */;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    display: flex; /* Set as a flex container */
+    z-index: 1002; /* Ensure the modal content appears above the modal background */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Lupa Kasih Nama */
+.outer2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    margin-top: 80px; /* Adding padding around the container */
+  }
+  
+  .inner3 h1 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .inner4 {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+  }
+  
+  .inti3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex: 0 0 auto;
+  }
+  
+  .kotak1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgb(2, 117, 191) 0%, rgb(115, 202, 211) 100%);
+    text-align: center;
+  }
+  
+  .kotak1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px; /* Increased font size */
+    margin: 0; /* Remove default margin */
+    text-align: center;
+  }
+  
+  .inti3 p {
+    width: 266px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+/* Material */
+.frameMaterial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    text-align: center; /* Centering text within the container */
+    padding: 20px; /* Adding padding around the container */
+}
+
+.frameMaterial .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center; /* Ensuring text alignment */
+}
+
+.frameMaterial .div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frameMaterial .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frameMaterial .TEAM-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgb(2, 117, 191) 0%, rgb(115, 202, 211) 100%);
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frameMaterial .TEAM {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frameMaterial .p {
+    position: relative;
+    width: 266px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+/* Style untuk form pencarian */
+.order-table-container form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Spasi di bawah form */
+}
+
+/* Style untuk input pencarian */
+.order-table-container input[type="text"] {
+    width: 300px; /* Lebar input */
+    padding: 10px; /* Padding dalam input */
+    margin-right: 10px; /* Spasi antara input dan tombol */
+    border: 1px solid #ccc; /* Border input */
+    border-radius: 5px; /* Border radius input */
+    font-family: 'Montserrat', sans-serif; /* Font family */
+    font-size: 14px; /* Ukuran font */
+    transition: border-color 0.3s; /* Transisi untuk border */
+}
+
+.order-table-container input[type="text"]:focus {
+    border-color: #1CB6B6; /* Border warna saat focus */
+    outline: none; /* Hilangkan outline default */
+}
+
+/* Style untuk tombol pencarian */
+.order-table-container button[type="submit"] {
+    background-color: #1CB6B6; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Hilangkan border */
+    padding: 10px 15px; /* Padding dalam tombol */
+    cursor: pointer; /* Pointer cursor saat hover */
+    border-radius: 5px; /* Border radius tombol */
+    font-family: 'Montserrat', sans-serif; /* Font family */
+    font-size: 14px; /* Ukuran font */
+    transition: background-color 0.3s; /* Transisi untuk background */
+}
+
+.order-table-container button[type="submit"]:hover {
+    background-color: #17a2a2; /* Warna latar belakang saat hover */
+}
+
+.order-table-container {
+    min-width: 80%; /* Mengatur lebar minimal */
+    min-height: 600px; /* Mengatur tinggi minimal */
+    display: flex; /* Menggunakan Flexbox */
+    flex-direction: column; /* Mengatur arah menjadi kolom */
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* Vertical center */
+    overflow: auto; /* Mengatur overflow agar tabel bisa di-scroll jika ukurannya melebihi container */
+    padding: 20px; /* Menambahkan padding di dalam container */
+}
+
+
+
+/* Style untuk tabel */
+.order-table-container table {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    border-collapse: collapse;
+    background-color: #04b4ff;
+}
+
+/* Style untuk header tabel */
+.order-table-container th {
+    background-color: #1CB6B6;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+/* Style untuk baris tabel */
+.order-table-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style untuk sel tabel */
+.order-table-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+/* Style untuk link dalam header */
+.order-table-container th a {
+    color: white;
+    text-decoration: none;
+}
+
+.order-table-container th a:hover {
+    text-decoration: underline;
+}
+
+/* Style untuk tombol */
+.order-table-container button {
+    background-color: #1CB6B6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.order-table-container button:hover {
+    background-color: #17a2a2;
+}
+
+/* Style untuk popup */
+.popupprintadmin, .popupcheckpayment {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Style untuk close button di popup */
+.popupprintadmin .logo, .popupcheckpayment .logo {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Style untuk form di popup */
+.popupprintadmin form, .popupcheckpayment form {
+    margin-top: 20px;
+}
+
+.popupprintadmin h4, .popupcheckpayment h4 {
+    margin: 10px 0;
+}
+
+.popupprintadmin input[type="text"], .popupcheckpayment input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* General styling */
+body {
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+
+/* Container styling */
+.palingLuar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+}
+.outer1{
+    display: flex;  /* Menjadikan outer1 sebagai flex container */
+    flex-direction: row;  /* Membuat inner1 dan inner2 tampil berdampingan */
+    justify-content: space-between;  /* Memberikan ruang antara inner1 dan inner2 */
+    width: 110%; 
+    margin-top: 70px; /* Atur nilai margin-top sesuai kebutuhan */
+}
+.inner1{
+    display: flex;  /* Menambahkan flex display */
+    flex-direction: column; 
+}
+.inti1 h1{
+    font-size: 96px;
+    font-weight: bold;
+}
+.inti2{
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inti2 button{
+    width: 258px;
+    height: 76px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.button1{
+    background-color: #3BDCF6;
+    color: #ffff;
+}
+.button2{
+    background-color: #ffff;
+    color: #070247;
+    margin-left: 25px;
+}
+.outer1 img{
+    
+}

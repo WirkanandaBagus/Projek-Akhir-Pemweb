@@ -9,161 +9,97 @@
                         <div class="header-2">
                             <p class="text">
                                 <span class="span"
-                                    >PLEASE <br />SUPPORT US</span
+                                    >KAMI ADA, JIKA  <br />KALIAN MEMBUTUHKAN</span
                                 >
                             </p>
-                            <p class="p">
-                                Every contribution helps us realize innovation
-                                and progress
-                            </p>
+                            
                         </div>
-                        <div class="butt">
-                            <div class="text-wrapper-2">Our Service</div>
-                        </div>
-                    </div>
-                    <div class="frame">
-                        <img
-                            class="imgrobot"
-                            src="{{URL::to('img/robolumo.svg')}}"
-                        />
+                        <a href="/dashboard" class="butt" style="display: inline-block; text-decoration: none;">
+                            <div class="text-wrapper-2">Reservasi</div>
+                        </a>
                     </div>
                 </div>
-                <div class="headline" data-aos="fade-up">
-                    <div class="headline-2">
-                        <img
-                            class="icon"
-                            src="{{URL::to('img/iconRob.svg')}}"
-                        />
-                        <div class="text-2">RELATION</div>
-                    </div>
-                    <div class="headline-2">
-                        <img
-                            class="icon"
-                            src="{{URL::to('img/iconPiala.svg')}}"
-                        />
-                        <div class="text-2">COMPETITION</div>
-                    </div>
-                    <div class="headline-2">
-                        <img
-                            class="icon"
-                            src="{{URL::to('img/iconPerson.svg')}}"
-                        />
-                        <div class="text-2">DIVISION</div>
-                    </div>
-                </div>
-                <div class="tagline" data-aos="fade-up">
-                    <div class="text-wrapper-2">TAGLINE</div>
+
+                
+                    
+                
+                <div id="tentang-kami" class="tagline" data-aos="fade-up">
+                    <div class="text-wrapper-2">Tentang Kami</div>
                     <div class="isi">
-                        <img
-                            class="robotiikwhite"
-                            src="{{URL::to('img/robotiikwhite.svg')}}"
-                        />
+                        
                         <div class="div-wrapper">
                             <p class="text-4">
-                                ROBOTIIK selalu mengamalkan visi dalam
-                                pengerjaan di setiap risetnya dengan melakukan
-                                wujud nyata riset yang di kompetisikan sebagai
-                                pengabdian kami terhadap disiplin ilmu kami dan
-                                misi kamu dalam meraih prestasi.
+                                Klinik home.infusion adalah layanan medis di rumah pasien. Tim medis berpengalaman seperti perawat dan dokter yang datang untuk pemantauan, pemberian obat dan infus, serta edukasi pasien. Keuntungan dari layanan klinik home.infusion termasuk kenyamanan, privasi, dan pengurangan risiko infeksi yang mungkin timbul di lingkungan rumah sakit.
+                            </p>
+                            <p class="text-4">
+                                Klinik home.infusion biasanya digunakan untuk pasien dengan kondisi lelah, orang lanjut usia, individu yang pulih dari operasi, atau mereka yang membutuhkan perawatan infus di rumah. Layanan ini dapat membantu memastikan bahwa pasien menerima perawatan yang sesuai sambil tetap berada di lingkungan yang nyaman bagi mereka.
+                                
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="division" data-aos="fade-up">
                     <div class="technical">
-                        <div class="text-5">Technical Division</div>
+                        <div class="Awan">
+                            <img
+                                    class="AwanIcon"
+                                    src="{{URL::to('img/Awan.svg')}}"
+                                />
+                        </div>
+                        
                         <div class="anggota">
                             <div class="frame-2">
                                 <img
                                     class="icon-3"
-                                    src="{{URL::to('img/Amarine.png')}}"
+                                    src="{{URL::to('img/GambarLayanan1.png')}}"
                                 />
                                 <div class="frame-3">
-                                    <div class="text-7">AMARINE</div>
+                                    <div class="text-7">Layanan yang mudah, nyaman, dan terjamin keamanannya</div>
                                 </div>
                             </div>
                             <div class="frame-2">
                                 <img
                                     class="icon-3"
-                                    src="{{URL::to('img/Humanoid.png')}}"
+                                    src="{{URL::to('img/GambarLayanan2.png')}}"
                                 />
                                 <div class="frame-3">
-                                    <div class="text-7">HUMANOID</div>
+                                    <div class="text-7">Didukung oleh tim medis yang berpengalaman, terampil, dan tersertifikasi</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="anggota">
+                            <div class="frame-2">
+                                <img
+                                    class="icon-3"
+                                    src="{{URL::to('img/GambarLayanan3.png')}}"
+                                />
+                                <div class="frame-3">
+                                    <div class="text-7">Area pelayanan yang luas</div>
                                 </div>
                             </div>
                             <div class="frame-2">
                                 <img
                                     class="icon-3"
-                                    src="{{URL::to('img/Quadcopter.png')}}"
+                                    src="{{URL::to('img/GambarLayanan4.png')}}"
                                 />
                                 <div class="frame-3">
-                                    <div class="text-7">QUADCOPTER</div>
+                                    <div class="text-7">Pelayanan Infus di rumah </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="nontechnical" data-aos="fade-up">
-                        <div class="text-5">Non Technical Division</div>
-                        <div class="frame-4">
-                            <div class="frame-5">
-                                <img
-                                    class="icon-3"
-                                    src="img/Public Relation.png"
-                                />
-                                <div class="frame-6">
-                                    <div class="text-7">
-                                        PUBLIC<br />RELATION
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="frame-5">
-                                <img
-                                    class="icon-3"
-                                    src="img/Comp Management.png"
-                                />
-                                <div class="frame-6">
-                                    <div class="text-7">
-                                        COMPETITION<br />MANAGEMENT
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="frame-5">
-                                <img class="icon-3" src="img/fund.png" />
-                                <div class="frame-6">
-                                    <div class="text-7">FUND<br />RAISING</div>
-                                </div>
-                            </div>
-                            <div class="frame-5">
-                                <img class="icon-3" src="img/Creative.png" />
-                                <div class="frame-6">
-                                    <div class="text-7">
-                                        CREATIVE<br />MEDIA
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
-                <div class="achievement" data-aos="fade-up">
-                    <div class="text-wrapper-3">Achievement</div>
+                <div id="layanan-kami" class="achievement" data-aos="fade-up">
+                    <div class="text-wrapper-3">Layanan Kami</div>
                     <div class="achievement-2">
                         <div class="frame-7">
                             <div class="frame-wrapper">
                                 <div class="frame-8">
-                                    <div class="frame-9">
-                                        <div class="text-wrapper-4">
-                                            COMPETITION
-                                        </div>
-                                        <img
-                                            class="icon-trophy"
-                                            src="img/iconPiala.svg"
-                                        />
-                                        <div class="COMPETITION">2024</div>
-                                    </div>
                                     <div class="frame-10">
                                         <div class="COMPETITION-wrapper">
                                             <div class="COMPETITION-2">
-                                                Deskripsi
+                                                <img class="icon-3" src="{{URL::to('img/LayananKami1.png')}}"/>
                                             </div>
                                         </div>
                                     </div>
@@ -171,20 +107,10 @@
                             </div>
                             <div class="frame-wrapper">
                                 <div class="frame-8">
-                                    <div class="frame-9">
-                                        <div class="text-wrapper-4">
-                                            COMPETITION
-                                        </div>
-                                        <img
-                                            class="icon-trophy"
-                                            src="img/iconPiala.svg"
-                                        />
-                                        <div class="COMPETITION">2024</div>
-                                    </div>
                                     <div class="frame-10">
                                         <div class="COMPETITION-wrapper">
                                             <div class="COMPETITION-2">
-                                                Deskripsi
+                                                <img class="icon-3" src="{{URL::to('img/LayananKami2.png')}}"/>
                                             </div>
                                         </div>
                                     </div>
@@ -194,20 +120,10 @@
                         <div class="frame-7">
                             <div class="frame-wrapper">
                                 <div class="frame-8">
-                                    <div class="frame-9">
-                                        <div class="text-wrapper-4">
-                                            COMPETITION
-                                        </div>
-                                        <img
-                                            class="icon-trophy"
-                                            src="img/iconPiala.svg"
-                                        />
-                                        <div class="COMPETITION">2024</div>
-                                    </div>
                                     <div class="frame-10">
                                         <div class="COMPETITION-wrapper">
                                             <div class="COMPETITION-2">
-                                                Deskripsi
+                                                <img class="icon-3" src="{{URL::to('img/LayananKami3.png')}}"/>
                                             </div>
                                         </div>
                                     </div>
@@ -215,108 +131,95 @@
                             </div>
                             <div class="frame-wrapper">
                                 <div class="frame-8">
-                                    <div class="frame-9">
-                                        <div class="text-wrapper-4">
-                                            COMPETITION
-                                        </div>
-                                        <img
-                                            class="icon-trophy"
-                                            src="img/iconPiala.svg"
-                                        />
-                                        <div class="COMPETITION">2024</div>
-                                    </div>
                                     <div class="frame-10">
                                         <div class="COMPETITION-wrapper">
                                             <div class="COMPETITION-2">
-                                                Deskripsi
+                                                <img class="icon-3" src="{{URL::to('img/LayananKami4.png')}}"/>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="butt-2">
-                        <div class="text-wrapper-2">MORE</div>
-                    </div>
-                </div>
-                <div class="relation">
-                    <div class="text-wrapper11">Relation</div>
-
-                    <div class="frame11">
-                        <div class="div11">Sponsorship</div>
-                        <div class="sponsor-scroll-container sponsorship">
-                            <div class="sponsor-atas">
-                                <div class="sponsor">
-                                    <img
-                                        class="robotikk-4"
-                                        src="img/logowarna.svg"
-                                    />
-                                    <div class="text-wrapper-22">ROBOTIIK</div>
+                        <div class="frame-7">
+                            <div class="frame-wrapper">
+                                <div class="frame-8">
+                                    <div class="frame-10">
+                                        <div class="COMPETITION-wrapper">
+                                            <div class="COMPETITION-2">
+                                                <img class="icon-3" src="{{URL::to('img/LayananKami5.png')}}"/>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- Tambahkan lebih banyak sponsor sesuai kebutuhan -->
-                                <div class="sponsor">
-                                    <img
-                                        class="robotikk-4"
-                                        src="img/logowarna.svg"
-                                    />
-                                    <div class="text-wrapper-22">ROBOTIIK</div>
-                                </div>
-                                <!-- Ulangi sponsor untuk scrolling yang mulus -->
-                                <div class="sponsor">
-                                    <img
-                                        class="robotikk-4"
-                                        src="img/logowarna.svg"
-                                    />
-                                    <div class="text-wrapper-22">ROBOTIIK</div>
-                                </div>
-                                <div class="sponsor">
-                                    <img
-                                        class="robotikk-4"
-                                        src="img/logowarna.svg"
-                                    />
-                                    <div class="text-wrapper-22">ROBOTIIK</div>
+                            </div>
+                            <div class="frame-wrapper">
+                                <div class="frame-8">
+                                    <div class="frame-10">
+                                        <div class="COMPETITION-wrapper">
+                                            <div class="COMPETITION-2">
+                                                <img class="icon-3" src="{{URL::to('img/LayananKami6.png')}}"/>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="frame">
-                        <div class="div11">Partnership</div>
-                        <div class="sponsor-scroll-container partnership">
-                            <div class="sponsor-atas">
-                                <div class="sponsor">
-                                    <img
-                                        class="robotikk-4"
-                                        src="img/logowarna.svg"
-                                    />
-                                    <div class="text-wrapper-22">ROBOTIIK</div>
+                        <div class="frame-layanan">
+                            <div class="frame-wrapper-layanan">
+                                <div class="div-layanan">
+                                    <div class="text-wrapper-layanan">Tambahan Obat</div>
+                                    <div class="div-wrapper-layanan"><div class="text-wrapper-layanan">Rp250.000 /obat</div>
                                 </div>
-                                <!-- Tambahkan lebih banyak sponsor sesuai kebutuhan -->
-                                <div class="sponsor">
-                                    <img
-                                        class="robotikk-4"
-                                        src="img/logowarna.svg"
-                                    />
-                                    <div class="text-wrapper-22">ROBOTIIK</div>
+                                
+                            </div>
+                            
+                            </div>
+                            <div class="frame-wrapper-layanan">
+                                <div class="div-layanan">
+                                    <div class="text-wrapper-layanan">Biaya visitasi Jakarta dan Bekasi</div>
+                                    <div class="div-wrapper-layanan"><div class="text-wrapper-layanan">Rp250.000 </div>
                                 </div>
-                                <!-- Ulangi sponsor untuk scrolling yang mulus -->
-                                <div class="sponsor">
-                                    <img
-                                        class="robotikk-4"
-                                        src="img/logowarna.svg"
-                                    />
-                                    <div class="text-wrapper-22">ROBOTIIK</div>
+                                
+                            </div>
+                            
+                            </div>
+                            <div class="frame-wrapper-layanan">
+                                <div class="div-layanan">
+                                    <div class="text-wrapper-layanan">Biaya visitasi Bogor, Depok, Tangerang</div>
+                                    <div class="div-wrapper-layanan"><div class="text-wrapper-layanan">Rp350.000 </div>
                                 </div>
-                                <div class="sponsor">
-                                    <img
-                                        class="robotikk-4"
-                                        src="img/logowarna.svg"
-                                    />
-                                    <div class="text-wrapper-22">ROBOTIIK</div>
+                                
+                            </div>
+                            
+                            </div>
+                            <div class="frame-wrapper-layanan">
+                                <div class="div-layanan">
+                                    <div class="text-wrapper-layanan">Biaya Konsultasi Online</div>
+                                    <div class="div-wrapper-layanan"><div class="text-wrapper-layanan">Rp50.000</div>
                                 </div>
+                                
+                            </div>
+                            
                             </div>
                         </div>
+                </div>
+                </div>
+
+
+
+                <div id="testimoni" class="testimoni" data-aos="fade-up">
+                    <div class="text-wrapper-3">Testimoni</div>
+                    <div class="testimoni-2">
+                        <div class="frame-2">
+                            <img
+                                class="icon-testimoni"
+                                src="{{URL::to('img/mockupHP.png')}}"
+                            />
+                            
+                        </div>
+
                     </div>
                 </div>
+
 @endsection

@@ -1,31 +1,33 @@
-.homepage-robotiik {
+.homepage-homeInfusion {
     display: flex;
     width: 100%;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url(HomepageRobotiik.svg);
+    background-image: url(Homepage.svg);
     background-size: cover;list-style-type: none;
 
 }
-.defaultpage-robotiik{
+.defaultpage-homeInfusion{
     display: flex;
     width: 100%;
-    padding-top: 35px;
+    background-color: #2e8f8f; /* Warna background */
+    padding-top: 10px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url(Wp_Service.svg);
     background-size: cover;
+    background-image: url('login3.svg'); /* Gambar background */
+    background-position: center; /* Menempatkan gambar di tengah */
 }
-.defaultpage-robotiik .homepage-res {
+.defaultpage-homeInfusion .homepage-res {
     display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
     gap: 49px;
 }
-.homepage-robotiik .homepage-res {
+.homepage-homeInfusion .homepage-res {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -35,10 +37,10 @@
 
 .homepage-res .navbar {
     display: flex;
-    padding: 0px 154px;
+    padding: 0px 135px;
     justify-content: center;
     align-items: center;
-    gap: 381px;
+    gap: 278px;
     align-self: stretch;
     position: sticky;
     top: 0;
@@ -89,13 +91,12 @@
 
 
 .navbar.scrolled {
-    background-color: #060146;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #1CB6B6;
 }
 
 .homepage-res .logo {
-    width: 238px;
-    height: 83px;
+    width: 243px;
+    height: 51px;
 }
 
 .homepage-res .div-nav {
@@ -107,7 +108,7 @@
 
 .homepage-res .menus {
     color: #fff;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
@@ -118,16 +119,18 @@
 
 .homepage-res .menu {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 5px;  
     border: none;
     border-radius: 5px;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     color: #fff;
     cursor: pointer;
     text-decoration: none;
+    min-width: 13   0px; /* Atur lebar minimum */
+    text-align: center; /* Pusatkan teks secara horizontal */
     transition: background-color 0.4s; /* Transition for background color change */
 }
 
@@ -142,7 +145,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 45px;
+    gap: 30px;
     align-self: stretch;
     flex-wrap: wrap;
 }
@@ -155,7 +158,7 @@
 }
 
 .menu:hover {
-    font-weight: 800;
+    font-weight: 650;
 }
 
 .homepage-res .imgrobot {
@@ -170,6 +173,7 @@
     justify-content: center;
     align-items: flex-start;
     gap: 36px;
+    height: 100vh;
 }
 
 .homepage-res .header-2 {
@@ -179,12 +183,12 @@
 }
 
 .homepage-res .text {
-    width: 556px;
+    width: 1200px;
 }
 
 .homepage-res .span {
-    font-family: Oxanium;
-    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
     font-style: normal;
     font-weight: 700;
     line-height: 97.75%; /* 87.975px */
@@ -199,7 +203,7 @@
 }
 
 .homepage-res .p {
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     width: 556px;
     font-size: 30px;
     font-style: normal;
@@ -222,7 +226,7 @@
     align-items: center;
     gap: 10px;
     border-radius: 20px;
-    background: linear-gradient(95deg, #3bdcf6 0%, #070247 100%);
+    background:  #1CB6B6 0%;
     box-shadow: 20px 15px 25px 0px #156c78;
     transition: 0.4s;
     cursor: pointer;
@@ -234,8 +238,8 @@
 
 .homepage-res .text-wrapper-2 {
     color: #fff;
-    font-family: Oxanium;
-    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -279,7 +283,7 @@
 
 .homepage-res .text-2 {
     color: #fff;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -294,7 +298,7 @@
 
 .homepage-res .text-3 {
     color: #fff;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -305,21 +309,20 @@
     display: flex;
     padding: 0px 178px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 19px;
     align-self: stretch;
 }
 
 .homepage-res .isi {
     display: flex;
+    flex-direction: column;
     min-width: 716px;
     padding: 10px 20px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 40px;
     align-self: stretch;
-    flex-wrap: wrap;
     border-radius: 20px;
     background: linear-gradient(
         90deg,
@@ -328,13 +331,11 @@
     );
 }
 
-.homepage-res .robotiikwhite {
-    width: 283px;
-    height: 242px;
-}
+
 
 .homepage-res .div-wrapper {
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -344,7 +345,7 @@
 .homepage-res .text-4 {
     flex: 1 0 0;
     color: #fff;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -370,11 +371,16 @@
 
 .homepage-res .text-5 {
     color: #fff;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+.homepage-res .AwanIcon {
+    width: 716px;
+    height: 191px;
+    object-fit: cover; /* Optional: Ensure the image covers the specified dimensions */
 }
 
 .homepage-res .anggota {
@@ -382,32 +388,23 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 56px;
+    gap: 150px;
     align-self: stretch;
     flex-wrap: wrap;
-}
 
+  }
+  
 .homepage-res .frame-2 {
     display: flex;
-    padding: 20px 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    border-radius: 40px;
-    background: linear-gradient(
-        151deg,
-        rgba(255, 255, 255, 0.1) 0%,
-        rgba(153, 153, 153, 0.03) 96.69%
-    );
+    border-radius: 20px;
     transition: 0.4s;
     cursor: pointer;
 }
 
-.frame-2:hover {
-    box-shadow: 10px 15px 20px 0px #0275bf;
-    scale: 1.2;
-}
 
 .homepage-res .icon-2 {
     width: 180px;
@@ -417,23 +414,19 @@
 
 .homepage-res .frame-3 {
     display: flex;
-    width: 200px;
-    padding: 12px 40px;
+    width: 285px;
+    padding: 10px 5px;
+    padding-top: 0px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 30px;
-    background: linear-gradient(
-        90deg,
-        #0275bf 0%,
-        rgba(100, 204, 214, 0.9) 100%
-    );
-    box-shadow: 10px 15px 20px 0px #0275bf;
+
 }
 
 .homepage-res .text-6 {
     color: #fff;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -477,11 +470,19 @@
 }
 
 .homepage-res .icon-3 {
-    width: 126.78px;
-    height: 126.78px;
+    width: 300px;
+    height: 300px;
     flex-shrink: 0;
     fill: #fff;
 }
+
+.homepage-res .icon-testimoni {
+    width: 700px;
+    height: 550px;
+    flex-shrink: 0;
+    fill: #fff;
+}
+
 
 .homepage-res .frame-6 {
     display: flex;
@@ -507,25 +508,58 @@
 .homepage-res .text-7 {
     color: #fff;
     text-align: center;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 300px;
+    height: 190px; /* Atur tinggi sesuai kebutuhan */
+
 }
 
-.homepage-res .achievement {
+.homepage-res .testimoni {
+    width: 1600px;
+    height: 1163.95px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* Menyusun item di tengah secara horizontal */
     gap: 25px;
     align-self: stretch;
+    background-image: url('testimonibg.svg'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Menutup seluruh area dengan gambar */
+    background-position: center; /* Menempatkan gambar di tengah */
+}
+
+.homepage-res .testimoni-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.homepage-res .achievement {
+    width: 1600px;
+    height: 1163.95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Menyusun item di tengah secara horizontal */
+    gap: 25px;
+    align-self: stretch;
+    background-image: url('bgLayanan.svg'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Menutup seluruh area dengan gambar */
+    background-position: center; /* Menempatkan gambar di tengah */
 }
 
 .homepage-res .text-wrapper-3 {
     color: #fff;
     text-align: center;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
@@ -548,6 +582,192 @@
     align-items: center;
     gap: 4px;
 }
+
+.homepage-res .frame-layanan{
+    display: flex;
+    flex-direction: row; /* Menyusun item menyamping */
+    align-items: flex-start;
+    gap: 21px;
+    padding: 12px 18px;
+    position: relative;
+    background-color: #00000099;
+    overflow-x: hidden;
+    width: 60%;
+    min-width: 950px;
+    min-height: 100px;
+    border-radius: 12px; /* Menambahkan pojokan tumpul */
+
+}
+
+.frame-layanan .frame-wrapper-layanan {
+display: flex;
+width: 269px;
+flex-direction: row; /* Menyusun item menyamping */
+align-items: flex-start;
+gap: 135px;
+position: relative;
+}
+.frame-layanan .div-layanan {
+flex-direction: column;
+width: 290px;
+gap: 6px;
+margin-right: -62px;
+display: flex;
+align-items: flex-start;
+position: relative;
+}
+.frame-layanan .text-wrapper-layanan {
+position: relative;
+width: 210px;
+height: 50px;
+margin-top: -1px;
+font-family: var(--xl-bold-font-family);
+font-weight: var(--xl-bold-font-weight);
+color: var(--neutral-50);
+font-size: var(--xl-bold-font-size);
+letter-spacing: var(--xl-bold-letter-spacing);
+line-height: var(--xl-bold-line-height);
+font-style: var(--xl-bold-font-style);
+
+}
+
+.frame-layanan .text-wrapper-2 {
+position: relative;
+width: fit-content;
+margin-top: -1px;
+font-family: var(--base-bold-font-family);
+font-weight: var(--base-bold-font-weight);
+color: var(--neutral-50);
+font-size: var(--base-bold-font-size);
+letter-spacing: var(--base-bold-letter-spacing);
+line-height: var(--base-bold-line-height);
+white-space: nowrap;
+font-style: var(--base-bold-font-style);
+}
+.frame-layanan .text-wrapper-3 {
+position: relative;
+width: fit-content;
+margin-top: -1px;
+font-family: var(--xl-bold-font-family);
+font-weight: var(--xl-bold-font-weight);
+color: var(--neutral-50);
+font-size: var(--xl-bold-font-size);
+letter-spacing: var(--xl-bold-letter-spacing);
+line-height: var(--xl-bold-line-height);
+font-style: var(--xl-bold-font-style);
+}
+.frame-layanan .frame-wrapper-layanan {
+width: 269px;
+gap: 135px;
+margin-right: -43px;
+display: flex;
+align-items: flex-start;
+position: relative;
+color: white;
+font-weight: bold;
+font-family: 'Inter', sans-serif; /* Menerapkan font Inter */
+}
+.frame-layanan .text-wrapper-4 {
+position: relative;
+width: 229px;
+height: 60px;
+margin-top: -1px;
+font-family: var(--xl-bold-font-family);
+font-weight: var(--xl-bold-font-weight);
+color: var(--neutral-50);
+font-size: var(--xl-bold-font-size);
+letter-spacing: var(--xl-bold-letter-spacing);
+line-height: var(--xl-bold-line-height);
+font-style: var(--xl-bold-font-style);
+}
+
+.frame-layanan .frame-wrapper {
+    display: flex;
+    width: 269px;
+    align-items: flex-start;
+    gap: 135px;
+    position: relative;
+    }
+    .frame-layanan .div {
+    flex-direction: column;
+    width: 331px;
+    gap: 6px;
+    margin-right: -62px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    }
+    .frame-layanan .text-wrapper {
+    position: relative;
+    width: 155px;
+    height: 60px;
+    margin-top: -1px;
+    font-family: var(--xl-bold-font-family);
+    font-weight: var(--xl-bold-font-weight);
+    color: var(--neutral-50);
+    font-size: var(--xl-bold-font-size);
+    letter-spacing: var(--xl-bold-letter-spacing);
+    line-height: var(--xl-bold-line-height);
+    font-style: var(--xl-bold-font-style);
+    }
+    .frame-layanan .div-wrapper-layanan {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center; /* Menyusun item secara horizontal di tengah */
+    gap: 10px;
+    padding: 5px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #1cb6b6;
+    border-radius: 6px;
+    height: 20px; /* Menetapkan tinggi tetap sesuai kebutuhan */
+    }
+    .frame-layanan .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--base-bold-font-family);
+    font-weight: var(--base-bold-font-weight);
+    color: var(--neutral-50);
+    font-size: var(--base-bold-font-size);
+    letter-spacing: var(--base-bold-letter-spacing);
+    line-height: var(--base-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--base-bold-font-style);
+    }
+    .frame-layanan .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--xl-bold-font-family);
+    font-weight: var(--xl-bold-font-weight);
+    color: var(--neutral-50);
+    font-size: var(--xl-bold-font-size);
+    letter-spacing: var(--xl-bold-letter-spacing);
+    line-height: var(--xl-bold-line-height);
+    font-style: var(--xl-bold-font-style);
+    }
+    .frame-layanan .frame-wrapper-2 {
+    width: 269px;
+    gap: 135px;
+    margin-right: -43px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    }
+    .frame-layanan .text-wrapper-4 {
+    position: relative;
+    width: 229px;
+    height: 60px;
+    margin-top: -1px;
+    font-family: var(--xl-bold-font-family);
+    font-weight: var(--xl-bold-font-weight);
+    color: var(--neutral-50);
+    font-size: var(--xl-bold-font-size);
+    letter-spacing: var(--xl-bold-letter-spacing);
+    line-height: var(--xl-bold-line-height);
+    font-style: var(--xl-bold-font-style);
+    }
 
 .homepage-res .frame-wrapper {
     display: flex;
@@ -582,7 +802,7 @@
     width: 94.812px;
     height: 19.266px;
     color: #fff;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -599,7 +819,7 @@
     height: 19.266px;
     color: #fff;
     text-align: center;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -608,17 +828,11 @@
 
 .homepage-res .frame-10 {
     display: flex;
-    padding: 102px 119px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 20px;
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.35) 100%
-    );
     backdrop-filter: blur(2px);
 }
 
@@ -632,7 +846,7 @@
 
 .homepage-res .COMPETITION-2 {
     color: #fff;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -666,7 +880,7 @@
 .homepage-res .text-wrapper11 {
     color: #fff;
     text-align: center;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
@@ -685,7 +899,7 @@
 .homepage-res .div11 {
     color: #fff;
     text-align: center;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -755,7 +969,7 @@
 
 .homepage-res .text-wrapper-22 {
     color: #fff;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -764,15 +978,11 @@
 
 .homepage-res .footer {
     display: flex;
-    padding: 30px 154px;
+    padding: 30px 300px;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
-    background: linear-gradient(
-        90deg,
-        rgba(3, 0, 45, 0.7) 0%,
-        rgba(3, 0, 45, 0.7) 100%
-    );
+    background: #1CB6B6
 }
 
 .homepage-res .f-kanan {
@@ -793,7 +1003,7 @@
     height: 35px;
     align-self: stretch;
     color: #fff;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -804,9 +1014,10 @@
     height: 72px;
     align-self: stretch;
     color: #fffafa;
-    font-family: Oxanium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
+

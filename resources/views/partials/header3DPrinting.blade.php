@@ -1,5 +1,5 @@
 <nav class="navbar">
-    <a href="/"><img class="logo" src="{{URL::to('img/logo.png')}}" /></a>
+    <a href="/"><img class="logo" src="{{URL::to('img/LogoNavHomeInfusion.png')}}" /></a>
     <ul class="div-nav">
         @auth
             @if (Auth::user()->is_admin)
@@ -12,9 +12,9 @@
                 </li>
             @else
                 <li>
-                    <form action="/{{ $title === 'Order' || $title === 'Print Orders' || $title === 'Design Orders' ? 'dashboard' : 'order' }}" method="get" style="background-color: blue; padding: 10px; border-radius: 5px;">
-                        <button type="submit" class="{{$title === 'Register' ? 'menus' : 'menu'}}" style="background-color: blue;">
-                            {{ $title === 'Order' || $title === "Print Orders" || $title === "Design Orders"? 'Dashboard' : 'Order' }}
+                    <form action="/{{ $title === 'Order' || $title === 'Print Orders' || $title === 'Design Orders' ? 'dashboard' : 'order' }}" method="get" style="background-color: rgb(0, 140, 255); padding: 10px; border-radius: 5px;">
+                        <button type="submit" class="{{$title === 'Register' ? 'menus' : 'menu'}}" style="background-color: rgb(0, 140, 255);">
+                            {{ $title === 'Order' || $title === "Print Orders" || $title === "Design Orders"? 'Dashboard' : 'Riwayat' }}
                         </button>
                     </form>
                     

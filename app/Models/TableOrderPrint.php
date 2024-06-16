@@ -18,8 +18,8 @@ class TableOrderPrint extends Model
         'id_user',
         'nama',
         'kontak',
-        'material',
-        'file_name',
+        'alamat',
+        'keluhan',
     ];
 
     protected static function boot()

@@ -1,46 +1,22 @@
 <nav class="navbar">
-    <a href="/"><img class="logo" src="{{URL::to('img/logo.png')}}" /></a>
+    <a href="/"><img class="logo" src="{{URL::to('img/LogoNavHomeInfusion.png')}}" /></a>
     <ul class="div-nav">
         <li>
-            <a class="{{$title === 'Home' ? 'menus' : 'menu'}}" href="/">Home</a>
+            <a class="menu" href="/">Home</a>
         </li>
-        <li class="menu {{$title === 'Division' ? 'menus' : 'menu'}}">
-            Division<i class="bi bi-caret-right"></i>
-            <div class="dropdown-content">
-                <div class="dropdown-item">
-                    <a href="/bpi">BPI</a>
-                </div>
-                <div class="dropdown-item">
-                    <a href="/humanoid">Humanoid</a>
-                </div>
-                <div class="dropdown-item">
-                    <a href="/quadqopter">Quadcopter</a>
-                </div>
-                <div class="dropdown-item">
-                    <a href="/amarine">Amarine</a>
-                </div>
-                <div class="dropdown-item">
-                    <a href="/public_relation">Public Relation</a>
-                </div>
-                <div class="dropdown-item">
-                    <a href="/comp.management">Comp. Management</a>
-                </div>
-                <div class="dropdown-item">
-                    <a href="/creative-media">Creative Media</a>
-                </div>
-                <div class="dropdown-item">
-                    <a href="/fund-raising">Fund Raising</a>
-                </div>
-            </div>
+    @if ($title === 'Home')
+        <li>
+            <a class="{{ $title === 'Relation' ? 'menus' : 'menu' }}" href="#tentang-kami">Tentang Kami</a>
         </li>
         <li>
-            <a class="{{$title === 'Relation' ? 'menus' : 'menu'}}" href="/relation">Relation</a>
+            <a class="{{ $title === 'Relation' ? 'menus' : 'menu' }}" href="#layanan-kami">Layanan Kami</a>
         </li>
         <li>
-            <a class="{{$title === 'Publication' ? 'menus' : 'menu'}}" href="/publication">Publication</a>
+            <a class="{{ $title === 'Publication' ? 'menus' : 'menu' }}" href="#testimoni">Testimoni</a>
         </li>
+    @endif
         <li>
-            <a class="{{$title === 'Service' ? 'menus' : 'menu'}}" href="/service">Service</a>
+            <a class="{{$title === 'Service' ? 'menus' : 'menu'}}" href="/dashboard">Reservasi</a>
         </li>
     </ul>
 </nav>
